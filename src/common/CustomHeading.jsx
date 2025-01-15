@@ -2,7 +2,7 @@ import React from 'react'
 
 const CustomHeading = () => {
   return (
-    <div>CustomHeading</div>
+    <h2></h2>
   )
 }
 
