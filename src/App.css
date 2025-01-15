@@ -9,6 +9,7 @@ body {
   -webkit-text-fill-color: transparent;
   background-clip: text;
 }
+
 .border-linear-gradient {
   background: linear-gradient(100.7deg, #B62AFF -82.68%, #FF0DF2 143.2%);
 }
@@ -74,4 +75,8 @@ body {
 
 .star-img-2 {
   animation: moveOnPlaceRight 5s infinite ease-in-out;
-}
+  @import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+  .font-comic {
+    font-family: "Comic Neue", serif;
+  }
