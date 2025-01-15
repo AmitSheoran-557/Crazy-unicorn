@@ -1,10 +1,15 @@
 import React from 'react'
 import { TEAM_CARDS } from '../utils/helper'
 import Horse from "../assets/images/png/horse.png";
+import CustomHeading from '../common/CustomHeading';
+import HeadingHorse from '../assets/images/png/heading-horse.png';
 function Team() {
     return (
         <div className='bg-team bg-cover bg-no-repeat bg-center'>
-            <h1 className='text-custom-7xl text-center'>Team</h1>
+            <div className='w-fit relative'>
+            <CustomHeading title="TEAM"/>
+            <img className='max-w-[118px] absolute -top-10 -right-5' src={HeadingHorse} alt="horse" />
+            </div>
             <div className='flex max-w-[1320px] mx-auto justify-between gap-3 max-xl:flex-wrap max-xl:justify-center max-xl:gap-y-12 mt-[154px] items-end'>
                 {TEAM_CARDS.map((obj, i) => (
                     <div className='bg-off-white border w-[424px] max-sm:w-[340px] border-pink-500 rounded-3xl group pb-5 text-center' key={i}>
