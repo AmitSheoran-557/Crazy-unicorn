@@ -1,3 +1,19 @@
+body {
+  background-image: url("./assets/images/png/body-bg.png");
+  background-size: cover;
+}
+
+.linear-gradient {
+  background: linear-gradient(100.7deg, #B62AFF -82.68%, #FF0DF2 143.2%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.border-linear-gradient {
+  background: linear-gradient(100.7deg, #B62AFF -82.68%, #FF0DF2 143.2%);
+}
+
+
 @keyframes moveOnPlace {
   0% {
     left: 0;
