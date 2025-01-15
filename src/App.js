@@ -10,13 +10,13 @@ import Roadmap from './components/Roadmap';
 function App() {
   return (
     <>
-    <Team/>
-    <Faq/>
-    <Footer/>
     <Hero/>
     <OurStory/>
     <AboutUs/>
     <Roadmap/>
+    <Team/>
+    <Faq/>
+    <Footer/>
     </> 
   );
 }
