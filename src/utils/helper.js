@@ -1,4 +1,4 @@
-
+import { DiscordLogo, InstagramLogo, TwitterLogo } from "./icons";
 export const TEAM_CARDS = [
     {
         heading: "Jerome Bell",
@@ -58,3 +58,18 @@ export const FAQ_LIST = [
           "Pulvinar odio scelerisque suspendisse fringilla rutrum a. Vestibulum etiam egestas dictum tristique. Eu quis in eu nunc, aliquet in non elit. Dis tincidunt.",
       }
   ];
+
+  export const MEDIA_ICONS = [
+    {
+        icon: <TwitterLogo/>,
+        link: "https://twitter.com/"
+    },
+    {
+        icon: <InstagramLogo/>,
+        link: "https://www.instagram.com/"
+    },
+    {
+        icon: <DiscordLogo/>,
+        link: "https://discord.com/"
+    }
+  ]

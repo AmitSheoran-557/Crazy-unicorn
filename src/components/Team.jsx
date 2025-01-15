@@ -5,10 +5,10 @@ import CustomHeading from '../common/CustomHeading';
 import HeadingHorse from '../assets/images/png/heading-horse.png';
 function Team() {
     return (
-        <div className='bg-team bg-cover bg-no-repeat bg-center'>
-            <div className='w-fit relative'>
+        <div className='bg-team bg-cover bg-no-repeat bg-center pt-14'>
+            <div className='w-fit relative mx-auto'>
             <CustomHeading title="TEAM"/>
-            <img className='max-w-[118px] absolute -top-10 -right-5' src={HeadingHorse} alt="horse" />
+            <img className='max-w-[118px] absolute -top-10 -right-16' src={HeadingHorse} alt="horse" />
             </div>
             <div className='flex max-w-[1320px] mx-auto justify-between gap-3 max-xl:flex-wrap max-xl:justify-center max-xl:gap-y-12 mt-[154px] items-end'>
                 {TEAM_CARDS.map((obj, i) => (
