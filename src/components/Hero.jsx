@@ -1,9 +1,12 @@
 import React from 'react'
+import Header from '../common/Header'
 
 const Hero = () => {
-  return (
-    <div>Hero</div>
-  )
+    return (
+        <div className='bg-hero-pattern bg-cover bg-center'>
+            <Header />
+        </div>
+    )
 }
 
 export default Hero
