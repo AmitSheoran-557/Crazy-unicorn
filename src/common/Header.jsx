@@ -32,7 +32,7 @@ const Header = () => {
             <a href="/">
                 <img className="xl:max-w-[85px] lg:max-w-20 max-w-16 max-h-[88px]" src={pageLogo} alt="page-logo" />
             </a>
-            <div className={`flex xl:gap-[30px] lg:gap-7 gap-6 !text-black max-lg:text-white lg:max-h-max max-lg:fixed max-lg:top-0 max-lg:h-full max-lg:w-full max-lg:flex-col max-lg:bg-black max-lg:duration-300 max-lg:justify-center max-lg:items-center z-40 ${open ? "max-lg:left-0" : "max-lg:left-full"}`}>
+            <div className={`flex xl:gap-[30px] lg:gap-7 gap-6 !text-black lg:max-h-max max-lg:fixed max-lg:top-0 max-lg:h-full max-lg:w-full max-lg:flex-col max-lg:bg-hero-pattern max-lg:duration-300 max-lg:justify-center max-lg:items-center z-40 ${open ? "max-lg:left-0" : "max-lg:left-full"}`}>
                 {HEADER_LIST.map((obj, i) => (
                     <div key={i}>
                         <a onClick={handleOpen} className="hover:underline uppercase underline-offset-2 lg:text-[22px] !leading-[109.6%] text-black max-lg:text-white" href={obj.link}> {obj.title}</a>

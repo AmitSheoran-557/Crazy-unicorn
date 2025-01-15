@@ -6,6 +6,7 @@
 
 * {
   font-family: "pinky-unicorn";
+  scroll-behavior: smooth;
 }
 
 .font-comic {
