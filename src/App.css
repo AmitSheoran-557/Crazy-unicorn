@@ -28,6 +28,12 @@ body {
   background: linear-gradient(100.7deg, #B62AFF -82.68%, #FF0DF2 143.2%);
 }
 
+.gradient-bg {
+  border-radius: 15px !important; 
+  background-color: black;
+  /* background-image: linear-gradient(to right, #B62AFF, #FF0DF2) 1; */
+}
+
 @keyframes moveOnPlace {
   0% {
     left: 0;
