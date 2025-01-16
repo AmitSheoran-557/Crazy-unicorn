@@ -17,7 +17,7 @@ const AboutUs = () => {
             });
         }, []);
     return (
-        <div className='max-w-[1320px] mx-auto lg:mb-[231px] mb-40 max-2xl:px-4'>
+        <div className='max-w-[1320px] mx-auto lg:mb-[231px] mb-40 max-2xl:px-4 overflow-hidden'>
             <div className="flex justify-center xl:justify-between flex-wrap xl:items-end items-center">
                 <div className="xl:w-6/12 w-full justify-center flex">
                     <img data-aos="fade-up-right" className='2xl:max-w-[661px] xl:min-h-[766px] xl:max-w-lg max-w-md max-h-[693px] w-full' src={HorseGroup} alt="horse-group-img" />

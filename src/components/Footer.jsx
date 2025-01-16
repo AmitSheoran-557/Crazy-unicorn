@@ -58,7 +58,7 @@ function Footer() {
     };
 
     return (
-        <div className='relative overflow-hidden bg-footer bg-no-repeat bg-cover bg-top pt-[265px] max-lg:pt-24 max-md:pt-16 max-sm:pt-12 px-4'>
+        <div className='relative overflow-hidden pt-[265px] max-lg:pt-24 max-md:pt-16 max-sm:pt-12 px-4'>
             <img className='pointer-events-none absolute bottom-0 left-0 w-full max-w-[500px] z-10 animate-stars' src={FooterBottomStars} alt="footer stars" />
             <img
                 className='pointer-events-none absolute bottom-0 left-0 w-full z-[3] animate-clouds'

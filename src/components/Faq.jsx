@@ -12,7 +12,7 @@ const Faq = () => {
         setActive(active === index ? null : index);
     };
     return (
-        <div id='faq' className='relative bg-faq px-4 bg-no-repeat bg-cover bg-bottom pt-[207px] max-lg:pt-24'>
+        <div id='faq' className='relative px-4 pt-[207px] max-lg:pt-24'>
             <img className='max-lg:hidden z-0 absolute top-0 left-0 w-full max-w-[300px] animate-stars' src={FaqLeftStars} alt="faq stars" />
             <img className='max-lg:hidden z-0 absolute top-36 right-0 w-full max-w-[300px] animate-stars' src={FaqRightStars} alt="faq stars" />
             <div className='w-fit relative z-[1] mx-auto'>

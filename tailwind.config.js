@@ -7,9 +7,6 @@ module.exports = {
       extend: {
         backgroundImage:{
           "hero-pattern": "url('./assets/images/png/hero-sec-bg-img.png')",
-          "team" : "url('./assets/images/png/team-bg.png')",
-          "faq" : "url('./assets/images/png/faq-bg.png')",
-          "footer" : "url('./assets/images/png/footer-bg.png')",
         },
         fontSize: {
           'custom-5xl': '40px',
