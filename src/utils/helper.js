@@ -68,8 +68,4 @@ export const FAQ_LIST = [
         icon: <InstagramLogo/>,
         link: "https://www.instagram.com/"
     },
-    {
-        icon: <DiscordLogo/>,
-        link: "https://discord.com/"
-    }
-  ]
+];
