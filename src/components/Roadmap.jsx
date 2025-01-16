@@ -8,7 +8,7 @@ import RoadmapLayerImg from '../assets/images/png/roadmap-layer-img.png'
 import RoadmapLayerImgTwo from '../assets/images/png/roadmap-layer-img-2.png'
 import RoadmapCloudImgTwo from '../assets/images/png/roadmap-bg-clouds-2.png'
 import StarImgThree from '../assets/images/png/stars-img-3.png'
-import StarImgFour from '../assets/images/png/stars-img-4.png'
+import StarImgFour from '../assets/images/png/stars-img-3.png'
 
 const Roadmap = () => {
     useEffect(() => {

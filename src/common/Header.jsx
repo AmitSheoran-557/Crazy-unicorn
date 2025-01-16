@@ -1,6 +1,4 @@
 import React, { useState, useEffect } from "react";
-import AOS from "aos";
-import "aos/dist/aos.css";
 import pageLogo from "./../assets/images/png/header-logo.png";
 import { HEADER_LIST } from "../utils/helper";
 import { DiscordLogo, InstagramLogo, TwitterLogo } from "../utils/icons";
@@ -23,16 +21,9 @@ const Header = () => {
     const handleOpen = () => {
         setOpen(!open);
     };
-    useEffect(() => {
-        AOS.init({
-            duration: 1200,
-            easing: "ease-in-out",
-            once: false,
-            offset: 100,
-        });
-    }, []);
+
     return (
-        <div data-aos="zoom-in" className="flex justify-between items-center max-w-[1320px] mx-auto max-xl:px-4 pt-1.5 xl:pb-[165px] lg:pb-[100px] md:pb-[70px] pb-[40px]">
+        <div className="flex justify-between items-center max-w-[1320px] mx-auto max-xl:px-4 pt-1.5 xl:pb-[165px] lg:pb-[100px] md:pb-[70px] pb-[40px]">
             <button onClick={handleOpen} className={`hidden size-7 justify-center max-lg:absolute max-lg:right-4 relative z-[60] max-lg:flex flex-col overflow-hidden`}>
                 <span className={`w-6 transition-all duration-300 min-h-[2px] max-h-[2px] mb-1 bg-black relative after:w-full after:h-full  after:absolute after:top-0 after:left-0 ${open ? "rotate-45 after:rotate-90 after:bg-white !bg-white" : ""}`}></span>
                 <span className={`w-6 transition-all duration-300 min-h-[2px] max-h-[2px] mb-1 bg-black ${open ? "hidden" : ""}`}></span>

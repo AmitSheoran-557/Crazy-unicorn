@@ -4,7 +4,7 @@ import "aos/dist/aos.css";
 import CustomHeading from '../common/CustomHeading'
 import Description from '../common/Description'
 import StarImgThree from '../assets/images/png/stars-img-3.png'
-import StarImgFour from '../assets/images/png/stars-img-4.png'
+import StarImgFour from '../assets/images/png/stars-img-3.png'
 import SmallHorseImg from '../assets/images/png/small-flying-horse-img.png'
 
 const OurStory = () => {
