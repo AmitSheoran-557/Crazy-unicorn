@@ -30,7 +30,10 @@ body {
   background: linear-gradient(100.7deg, #B62AFF -82.68%, #FF0DF2 143.2%);
 }
 
-/* ======================================= keyframe Classes ================================================== */
+.gradient-bg {
+  background-color: black;
+}
+
 @keyframes moveOnPlace {
   0% {
     transform:translateX(0);
@@ -84,10 +87,71 @@ body {
   }
 
   100% {
-    transform: translateX(0);
-    transform: translateY(-10px);
+    right: 0;
+    bottom: -10px;
   }
 }
+
+@keyframes moveClouds {
+  0% {
+      transform: translateX(0);
+  }
+  50% {
+    transform: translateX(-10%);
+}
+  100% {
+      transform: translateX(0%);
+  }
+}
+
+@keyframes moveRainbow {
+  0% {
+      transform: translateY(0);
+  }
+  25% {
+    transform: translateY(20px);
+}
+  50% {
+  transform: translateY(40px);
+}
+ 75% {
+  transform: translateY(-20px);
+}
+  100% {
+      transform: translateY(0px); 
+  }
+}
+
+@keyframes moveStars {
+  0% {
+      transform: translateY(0);
+  }
+  25% {
+    transform: translateY(30px);
+}
+  50% {
+  transform: translateY(40px);
+}
+ 75% {
+  transform: translateY(-30px);
+}
+  100% {
+      transform: translateY(0px); 
+  }
+}
+
+.animate-clouds {
+  animation: moveClouds 15s linear infinite; 
+}
+
+.animate-rainbow {
+  animation: moveRainbow 15s ease-in-out infinite;
+}
+
+.animate-stars {
+  animation: moveStars 10s ease-in-out infinite;
+}
+
 
 .star-img-2 {
   animation: moveOnPlaceRight 5s infinite ease-in-out;
