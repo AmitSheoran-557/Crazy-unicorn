@@ -30,12 +30,15 @@ const Header = () => {
                 <span className={`w-6 transition-all duration-300 min-h-[2px] max-h-[2px] mb-1 bg-black after:!bg-white ${open ? "-translate-x-10 !bg-white" : ""}`}></span>
             </button>
             <a href="/">
-                <img className="xl:max-w-[85px] lg:max-w-20 max-w-16 max-h-[88px]" src={pageLogo} alt="page-logo" />
+                <img className="xl:max-w-[85px] lg:max-w-20 md:max-w-16 max-w-12 max-h-[88px]" src={pageLogo} alt="page-logo" />
             </a>
-            <div className={`flex xl:gap-[30px] lg:gap-7 gap-6 !text-black lg:max-h-max max-lg:fixed max-lg:top-0 max-lg:h-full max-lg:w-full max-lg:flex-col max-lg:bg-hero-pattern max-lg:duration-300 max-lg:justify-center max-lg:items-center z-40 ${open ? "max-lg:left-0" : "max-lg:left-full"}`}>
+            <div className={`flex xl:gap-[30px] lg:gap-7 gap-6 !text-black lg:max-h-max max-lg:fixed max-lg:top-0 max-lg:h-full max-lg:w-full max-lg:flex-col max-lg:bg-hero-pattern max-lg:duration-300 max-lg:justify-center max-lg:items-center z-50 ${open ? "max-lg:left-0" : "max-lg:left-full"}`}>
                 {HEADER_LIST.map((obj, i) => (
                     <div key={i}>
-                        <a onClick={handleOpen} className="hover:underline uppercase underline-offset-2 lg:text-[22px] !leading-[109.6%] text-black max-lg:text-white" href={obj.link}> {obj.title}</a>
+                        <a onClick={handleOpen} className="text-custom-2xl flex gap-1 flex-row justify-center items-center after:absolute after:w-0 after:transition-all after:duration-300 after:hover:w-full 
+                                         after:-bottom-3 after:h-2 after:left-0 after:bg-header-line after:bg-cover after:bg-center after:max-w-16 
+                                        font-normal transition-all ease-linear duration-300 font-pinkyUnicorn relative custom-underline uppercase underline-offset-2 lg:text-[22px] !leading-[109.6%]
+                                         text-black max-lg:text-white" href={obj.link}> {obj.title}</a>
                     </div>
                 ))}
                 <div className="lg:hidden max-lg:block">
