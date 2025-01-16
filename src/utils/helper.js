@@ -23,6 +23,4 @@ export const HEADER_LIST = [
         title: "FAQs",
         link: "#faq",
     },
-
-    
 ];
