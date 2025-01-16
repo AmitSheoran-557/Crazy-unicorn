@@ -28,8 +28,8 @@ const Roadmap = () => {
                     <div className="flex relative z-10 w-full lg:mb-[61px] xl:pl-20 max-xl:pl-32 max-lg:pl-24 max-md:pl-14 max-sm:pl-10 mb-40">
                         <img className='lg:max-w-[500px] md:max-w-sm max-w-[340px] absolute lg:left-0 lg:-top-16 max-lg:left-8 max-md:left-1 max-sm:-left-2 max-lg:-top-14 xl:hidden lg:block' src={RoadmapCloudImgTwo} alt="cloud-img" />
                         <div className='sm:mr-auto max-w-[451px] relative z-10 !leading-[115%] xl:min-w-[205px] !w-full'>
-                            <h2 className='xl:mb-[15px] md:!leading-[174%] xl:text-[40px] lg:text-4xl md:text-3xl text-2xl'>Phase 1</h2>
-                            <Description className="font-comic xl:!text-lg lg:!text-base lg:block max-lg:hidden xl:max-w-[400px] max-w-xs" title="Sed lectus ut elit id lectus diam massa nisl pretium. Sagittis, adipiscing maecenas lorem ullamcorper. Faucibus netus sed varius loborti orbi sit sit magna lorem arcu." />
+                            <h2 className='xl:mb-[15px] md:!leading-[115%] xl:text-[40px] lg:text-4xl md:text-3xl text-2xl'>Phase 1</h2>
+                            <Description className="font-comic xl:!text-lg lg:!text-base !leading-[174%] xl:!leading-[32px] lg:block max-lg:hidden xl:max-w-[400px] max-w-xs" title="Sed lectus ut elit id lectus diam massa nisl pretium. Sagittis, adipiscing maecenas lorem ullamcorper. Faucibus netus sed varius loborti orbi sit sit magna lorem arcu." />
                             <Description className="font-comic lg:hidden max-lg:block !text-xs xl:max-w-[400px] max-w-[270px]" title="Sed lectus ut elit id lectus diam massa nisl preti Sagittis, adipiscing maecenas lorem ullamcorper. Faucibus netus sed varius loborti orbi." />
                         </div>
                     </div>
@@ -37,8 +37,8 @@ const Roadmap = () => {
                     <div className="flex relative z-10 w-full xl:mb-[66px] lg:mb-8 mb-40">
                         <img className='lg:max-w-[520px] md:max-w-sm max-w-[340px] absolute lg:!right-8 lg:!-top-20 max-lg:right-20 max-md:-right-3 max-lg:-top-14 xl:hidden lg:block' src={RoadmapCloudImgTwo} alt="cloud-img" />
                         <div className='ml-auto xl:max-w-[451px] lg:max-w-[420px] md:max-w-sm max-w-[270px] relative z-10 !leading-[115%] xl:min-w-[205px] w-full'>
-                            <h2 className='xl:mb-[15px] md:!leading-[174%] xl:text-[40px] lg:text-4xl md:text-3xl text-2xl'>Phase 2</h2>
-                            <Description className="font-comic xl:!text-lg lg:!text-base lg:block max-lg:hidden xl:max-w-[360px] max-w-xs" title="Sed lectus ut elit id lectus diam massa nisl pretium. Sagittis, adipiscing maecenas lorem ullamcorper. Faucibus netus sed varius loborti orbi sit sit magna lorem arcu." />
+                            <h2 className='xl:mb-[15px] md:!leading-[115%] xl:text-[40px] lg:text-4xl md:text-3xl text-2xl'>Phase 2</h2>
+                            <Description className="font-comic xl:!text-lg lg:!text-base !leading-[174%] xl:!leading-[32px] lg:block max-lg:hidden xl:max-w-[360px] max-w-xs" title="Sed lectus ut elit id lectus diam massa nisl pretium. Sagittis, adipiscing maecenas lorem ullamcorper. Faucibus netus sed varius loborti orbi sit sit magna lorem arcu." />
                             <Description className="font-comic lg:hidden max-lg:block !text-xs xl:max-w-[360px] max-w-[270px]" title="Sed lectus ut elit id lectus diam massa nisl preti Sagittis, adipiscing maecenas lorem ullamcorper. Faucibus netus sed varius loborti orbi." />
                         </div>
                     </div>
@@ -46,8 +46,8 @@ const Roadmap = () => {
                     <div className="flex relative z-10 w-full xl:mb-[22px] lg:mb-7 xl:pl-20 max-xl:pl-32 max-lg:pl-24 max-md:pl-14 max-sm:pl-10 mb-40">
                         <img className='lg:max-w-[500px] md:max-w-sm max-w-[340px] absolute lg:left-0 lg:-top-16 max-lg:left-8 max-md:left-1 max-sm:-left-2 max-lg:-top-14 xl:hidden lg:block' src={RoadmapCloudImgTwo} alt="cloud-img" />
                         <div className='sm:mr-auto max-w-[451px] relative z-10 !leading-[115%] xl:min-w-[205px] w-full'>
-                            <h2 className='xl:mb-[15px] md:!leading-[174%] xl:text-[40px] lg:text-4xl md:text-3xl text-2xl'>Phase 3</h2>
-                            <Description className="font-comic xl:!text-lg lg:!text-base lg:block max-lg:hidden xl:max-w-[340px] max-w-xs" title="Sed lectus ut elit id lectus diam massa nisl pretium. Sagittis, adipiscing maecenas lorem ullamcorper. Faucibus netus sed varius loborti orbi sit sit magna lorem arcu." />
+                            <h2 className='xl:mb-[15px] md:!leading-[115%] xl:text-[40px] lg:text-4xl md:text-3xl text-2xl'>Phase 3</h2>
+                            <Description className="font-comic xl:!text-lg lg:!text-base !leading-[174%] xl:!leading-[32px] lg:block max-lg:hidden xl:max-w-[340px] max-w-xs" title="Sed lectus ut elit id lectus diam massa nisl pretium. Sagittis, adipiscing maecenas lorem ullamcorper. Faucibus netus sed varius loborti orbi sit sit magna lorem arcu." />
                             <Description className="font-comic lg:hidden max-lg:block !text-xs xl:max-w-[340px] max-w-[270px]" title="Sed lectus ut elit id lectus diam massa nisl preti Sagittis, adipiscing maecenas lorem ullamcorper. Faucibus netus sed varius loborti orbi." />
                         </div>
                     </div>
@@ -55,8 +55,8 @@ const Roadmap = () => {
                     <div className="flex relative z-10 w-full lg:mb-[61px] mb-40">
                         <img className='lg:max-w-[520px] md:max-w-sm max-w-[340px] absolute lg:!right-8 lg:!-top-20 max-lg:right-20 max-md:-right-3 max-lg:-top-14 xl:hidden lg:block' src={RoadmapCloudImgTwo} alt="cloud-img" />
                         <div className='ml-auto xl:max-w-[451px] lg:max-w-[420px] md:max-w-sm max-w-[270px] relative z-10 !leading-[115%] xl:pl-10 xl:min-w-[205px] w-full'>
-                            <h2 className='xl:mb-[15px] md:!leading-[174%] xl:text-[40px] lg:text-4xl md:text-3xl text-2xl'>Phase 4</h2>
-                            <Description className="font-comic xl:!text-lg lg:!text-base lg:block max-lg:hidden xl:max-w-[360px] max-w-xs" title="Sed lectus ut elit id lectus diam massa nisl pretium. Sagittis, adipiscing maecenas lorem ullamcorper. Faucibus netus sed varius loborti orbi sit sit magna lorem arcu." />
+                            <h2 className='xl:mb-[15px] md:!leading-[115%] xl:text-[40px] lg:text-4xl md:text-3xl text-2xl'>Phase 4</h2>
+                            <Description className="font-comic xl:!text-lg lg:!text-base !leading-[174%] xl:!leading-[32px] lg:block max-lg:hidden xl:max-w-[360px] max-w-xs" title="Sed lectus ut elit id lectus diam massa nisl pretium. Sagittis, adipiscing maecenas lorem ullamcorper. Faucibus netus sed varius loborti orbi sit sit magna lorem arcu." />
                             <Description className="font-comic lg:hidden max-lg:block !text-xs xl:max-w-[360px] max-w-[270px]" title="Sed lectus ut elit id lectus diam massa nisl preti Sagittis, adipiscing maecenas lorem ullamcorper. Faucibus netus sed varius loborti orbi." />
                         </div>
                     </div>
@@ -64,8 +64,8 @@ const Roadmap = () => {
                     <div className="flex relative z-10 w-full xl:pl-20 max-xl:pl-32 max-lg:pl-24 max-md:pl-14 max-sm:pl-10 mb-40">
                         <img className='lg:max-w-[500px] md:max-w-sm max-w-[340px] absolute lg:left-0 lg:-top-16 max-lg:left-8 max-md:left-1 max-sm:-left-2 max-lg:-top-14 xl:hidden lg:block' src={RoadmapCloudImgTwo} alt="cloud-img" />
                         <div className='sm:mr-auto max-w-[451px] relative z-10 !leading-[115%] w-full'>
-                            <h2 className='xl:mb-[15px] md:!leading-[174%] xl:text-[40px] lg:text-4xl md:text-3xl text-2xl'>Phase 5</h2>
-                            <Description className="font-comic xl:!text-lg lg:!text-base lg:block max-lg:hidden max-w-[323px]" title="Sed lectus ut elit id lectus diam massa nisl pretium. Sagittis, adipiscing maecenas lorem ullamcorper. Faucibus netus sed varius loborti orbi sit sit." />
+                            <h2 className='xl:mb-[15px] md:!leading-[115%] xl:text-[40px] lg:text-4xl md:text-3xl text-2xl'>Phase 5</h2>
+                            <Description className="font-comic xl:!text-lg lg:!text-base !leading-[174%] xl:!leading-[32px] lg:block max-lg:hidden max-w-[323px]" title="Sed lectus ut elit id lectus diam massa nisl pretium. Sagittis, adipiscing maecenas lorem ullamcorper. Faucibus netus sed varius loborti orbi sit sit." />
                             <Description className="font-comic lg:hidden max-lg:block !text-xs max-w-[270px]" title="Sed lectus ut elit id lectus diam massa nisl preti Sagittis, adipiscing maecenas lorem ullamcorper. Faucibus netus sed varius loborti orbi." />
                         </div>
                     </div>

@@ -7,10 +7,10 @@ import SmallHorseImg from '../assets/images/png/small-flying-horse-img.png'
 
 const OurStory = () => {
   return (
-    <div className="relative">
+    <div className="relative z-50">
       <img className='star-img-2 2xl:max-w-[361px] xl:max-w-xs lg:max-w-64 md:max-w-48 max-w-36 absolute left-0 lg:-top-[43%] -top-[30%]' src={StarImgThree} alt=" start-img-3" />
-      <img className='star-img 2xl:max-w-[361px] xl:max-w-xs lg:max-w-64 md:max-w-48 max-w-36 absolute right-0 lg:bottom-0 -top-[30%]' src={StarImgFour} alt=" start-img-4" />
-      <div className='max-w-[1320px] relative z-20 lg:pb-[212px] max-xl:px-4 pb-40 mx-auto flex flex-col justify-center items-center'>
+      <img className='star-img 2xl:max-w-[361px] xl:max-w-xs lg:max-w-64 md:max-w-48 max-w-36 absolute right-0 lg:top-[20%]' src={StarImgFour} alt=" start-img-4" />
+      <div className='max-w-[1320px] relative z-20 lg:pb-[138px] max-xl:px-4 pb-40 mx-auto flex flex-col justify-center items-center'>
         <span className='relative max-w-max flex justify-center items-center'>
           <CustomHeading title="Our Story" className="lg:mb-[22px] md:mb-4 mb-3 text-center" />
 
